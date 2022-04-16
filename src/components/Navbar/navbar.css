@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 85px;
+    background-color: #00828c;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    border:2px solid black;
+    margin-right: 5em;
+    margin-top: 3px ;
+    height: 6.5vw;
+}
+
+.home,.about,.signup ,.cart{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-right: 40px;
+}
+
+.cart{
+    font-size: 1.850em;
+    border: 2px solid red;
+    bottom: auto;
+    
+}
